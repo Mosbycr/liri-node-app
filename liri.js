@@ -4,9 +4,9 @@ var moment = require('moment');
 
 var userRequestAction = process.argv[2];
 var userInput = process.argv.slice(3).join("+"); //will work for spotify?
-//console.log(userInput);
+console.log(userInput);
 
-omdb();
+
 
 // Action choices and executions
 switch (userRequestAction){
@@ -19,6 +19,7 @@ switch (userRequestAction){
     break;
 
     case "movie-this":
+    omdb(userInput);
     break;
 }
 
@@ -83,6 +84,27 @@ function bandsInTown(){
 
 }
 
-function omdb(){
+//axios call to omdb api to retrieve requested movie data
+function omdb(movieName){
+  // if there is no requested movie for search
+  if (!movieName){
+    movieName = "mr.nobody";
+  }
 
+  var queryURL = "http://www.omdbapi.com/?apikey=trilogy&t=" + movieName + "&type=movie&tomatoes=true";
+  console.log(queryURL);
+
+  axios.get(queryURL).then(function (response){
+    //console.log(response);
+    var movieResults = response.data;
+    console.log("\n******Movie Information******" +
+    "\nMovie Title: " + movieResults.Title +
+    "\nYear Released: " + movieResults.Year +
+    "\nCountry: " + movieResults.Country +
+    "\nLanguage: " + movieResults.Language +
+    "\nIMDB Rating: " + movieResults.Ratings[0].Value +
+    "\nRotten Tomatoes Rating: " + movieResults.Ratings[1].Value +
+    "\nActors: " + movieResults.Actors +
+    "\nPlot: " + movieResults.Plot);
+  });
 }
