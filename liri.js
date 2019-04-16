@@ -1,6 +1,8 @@
 require("dotenv").config();
 var axios = require("axios");
 var moment = require('moment');
+var Spotify = require("node-spotify-api");
+var keys = require("./keys.js");
 
 var userRequestAction = process.argv[2];
 var userInput = process.argv.slice(3).join("+"); //will work for spotify?
@@ -12,7 +14,7 @@ console.log(userInput);
 // Action choices and executions
 switch (userRequestAction){
     case "spotify-this-song":
-    spotify();
+    spotify(userInput);
     break;
 
     case "concert-this":
@@ -25,18 +27,18 @@ switch (userRequestAction){
 }
 
 // geting an error for spotify()
-function spotify() {
-  var Spotify = require("node-spotify-api");
-  var keys = require("./keys.js");
+function spotify(song) {
   var spotify = new Spotify(keys.spotify);
   console.log(spotify);
 
-  spotify.search({ type: "track", query: "All the Small Things", limit: 1 }, function(err,data) {
+  spotify.search({ type: "track", query: song, limit: 1 }, function(err,data) {
     if (err) {
       return console.log("Error occurred: " + err);
     }
 
-    console.log(data);
+    //console.log(data);
+    console.log("Artist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
+      "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].preview_url);
   });
 
 }
