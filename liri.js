@@ -5,7 +5,7 @@ var Spotify = require("node-spotify-api");
 var keys = require("./keys.js");
 
 var userRequestAction = process.argv[2];
-var userInput = process.argv.slice(3).join("+"); //will work for spotify?
+var userInput = process.argv.slice(3).join("+");
 var artist = process.argv.slice(3).join("");
 console.log(userInput);
 
@@ -52,9 +52,9 @@ function bandsInTown(artist){
   axios.get(queryURL).then(function (response) {
     console.log(response);
     var results = response.data;
-
-    if (response.data === []){  //does not work for check 
-      console.log("try again");
+    //checks if response is emty - means that band has no events
+    if (response.data.length === 0){ 
+      console.log("The artist or band you would like to see has no showings available. Please try another.");
     } else {
       //loops through every available event and lists the venue name, location, and date of event
       for (var i = 0; i < results.length; i++) {
