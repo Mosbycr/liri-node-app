@@ -24,37 +24,42 @@ switch (userRequestAction){
     case "movie-this":
     omdb(userInput);
     break;
+
+    case "do-what-it-says":
+    break;
 }
 
-// geting an error for spotify()
-function spotify(song) {
+//add default song
+function spotify(userInput) {
   var spotify = new Spotify(keys.spotify);
-  console.log(spotify);
+  //console.log(spotify);
 
-  spotify.search({ type: "track", query: song, limit: 1 }, function(err,data) {
+  if(!userInput){
+    userInput = "the+sign+ace+of+base";
+  }
+
+  spotify.search({ type: "track", query: userInput, limit: 1 }, function(err,data) {
     if (err) {
       return console.log("Error occurred: " + err);
     }
 
     //console.log(data);
-    console.log("Artist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
+    console.log("\n******Song Information******" + "\nArtist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
       "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].preview_url);
   });
 
 }
 
-
 function bandsInTown(artist){
   var queryURL = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
-  console.log(queryURL);
+  //console.log(queryURL);
 
-  //need to add some way to say try another band when artist info not retrieved and empty array provided in queryURL - status code will not work both 200 and no error
   axios.get(queryURL).then(function (response) {
-    console.log(response);
+    //console.log(response);
     var results = response.data;
     //checks if response is emty - means that band has no events
     if (response.data.length === 0){ 
-      console.log("The artist or band you would like to see has no showings available. Please try another.");
+      console.log("The artist or band you would like to see has no showings available. Please try another!");
     } else {
       //loops through every available event and lists the venue name, location, and date of event
       for (var i = 0; i < results.length; i++) {
