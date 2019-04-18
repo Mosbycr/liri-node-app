@@ -41,7 +41,7 @@ function spotify(userInput) {
       return console.log("Error occurred: " + err);
     }
 
-    //console.log(data);
+    //record data
     console.log("\n******Song Information******" + "\nArtist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
       "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].preview_url);
   });
@@ -53,8 +53,8 @@ function bandsInTown(artist){
   //console.log(queryURL);
 
   axios.get(queryURL).then(function (response) {
-    //console.log(response);
     var results = response.data;
+
     //checks if response is empty - means that band has no events
     if (response.data.length === 0){ 
       console.log("The artist or band you would like to see has no showings available. Please try another!");
@@ -80,10 +80,9 @@ function omdb(movieName){
   }
 
   var queryURL = "http://www.omdbapi.com/?apikey=trilogy&t=" + movieName + "&type=movie&tomatoes=true";
-  console.log(queryURL);
+ // console.log(queryURL);
 
   axios.get(queryURL).then(function (response){
-    //console.log(response);
     var movieResults = response.data;
     console.log("\n******Movie Information******" +
     "\nMovie Title: " + movieResults.Title +
@@ -105,15 +104,10 @@ function doTxtFile(){
       return console.log(error);
     }
 
-    // We will then print the contents of data
-    //console.log(data);
-
     // Then split it by commas (to make it more readable)
     var dataArr = data.split(",");
 
-    // We will then re-display the content as an array for later use.
-    //console.log(dataArr);
-    //
+    //check which request and run 
     if(dataArr[0] === "spotify-this-song"){
       spotify(dataArr[1]);
     }
