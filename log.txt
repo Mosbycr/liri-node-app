@@ -1,195 +1,232 @@
 
+
 ******Song Information******
 Artist: Ray Parker, Jr.
 Song name: Ghostbusters
 Album Name: Arista Heritage Series: Ray Parker
 Preview Link: https://p.scdn.co/mp3-preview/fc919929a10a7d712f76c36566321e2048f7daa8?cid=25f70ef638ce478f9587d377d35dd14d
-****** Band Event Search Results ******
-The Venue: Oracle Arena
-The Venue location is: Oakland, CA
-Date of the Event: 05/11/2019
+
 ****** Band Event Search Results ******
 The Venue: Save Mart Center
 The Venue location is: Fresno, CA
 Date of the Event: 05/14/2019
+
 ****** Band Event Search Results ******
-The Venue: Pepsi Center
-The Venue location is: Denver, CO
-Date of the Event: 05/19/2019
+The Venue: Oracle Arena
+The Venue location is: Oakland, CA
+Date of the Event: 05/11/2019
+
 ****** Band Event Search Results ******
 The Venue: The Forum
 The Venue location is: Los Angeles, CA
 Date of the Event: 05/16/2019
+
+****** Band Event Search Results ******
+The Venue: Pepsi Center
+The Venue location is: Denver, CO
+Date of the Event: 05/19/2019
+
 ****** Band Event Search Results ******
 The Venue: Von Braun Center Propst Arena
 The Venue location is: Huntsville, AL
 Date of the Event: 05/25/2019
-****** Band Event Search Results ******
-The Venue: BOK Center
-The Venue location is: Tulsa, OK
-Date of the Event: 05/21/2019
+
 ****** Band Event Search Results ******
 The Venue: KFC Yum! Center
 The Venue location is: Louisville, KY
 Date of the Event: 05/26/2019
+
+****** Band Event Search Results ******
+The Venue: BOK Center
+The Venue location is: Tulsa, OK
+Date of the Event: 05/21/2019
+
 ****** Band Event Search Results ******
 The Venue: Greensboro Coliseum Complex
 The Venue location is: Greensboro, NC
 Date of the Event: 05/30/2019
+
 ****** Band Event Search Results ******
 The Venue: AT&T Center
 The Venue location is: San Antonio, TX
 Date of the Event: 05/23/2019
+
 ****** Band Event Search Results ******
 The Venue: James Brown Arena
 The Venue location is: Augusta, GA
 Date of the Event: 06/02/2019
+
 ****** Band Event Search Results ******
 The Venue: PPL Center
 The Venue location is: Allentown, PA
 Date of the Event: 06/04/2019
+
 ****** Band Event Search Results ******
 The Venue: Madison Square Garden
 The Venue location is: New York, NY
 Date of the Event: 06/06/2019
+
 ****** Band Event Search Results ******
 The Venue: DCU Center
 The Venue location is: Worcester, MA
 Date of the Event: 06/08/2019
+
 ****** Band Event Search Results ******
 The Venue: Hard Rock Live at Etess Arena
 The Venue location is: Atlantic City, NJ
 Date of the Event: 06/09/2019
+
 ****** Band Event Search Results ******
 The Venue: Bell Centre
 The Venue location is: Montreal, 
 Date of the Event: 06/11/2019
+
 ****** Band Event Search Results ******
 The Venue: Mohegan Sun Arena
 The Venue location is: Uncasville, CT
 Date of the Event: 06/13/2019
-****** Band Event Search Results ******
-The Venue: Nationwide Arena
-The Venue location is: Columbus, OH
-Date of the Event: 06/16/2019
+
 ****** Band Event Search Results ******
 The Venue: Van Andel Arena
 The Venue location is: Grand Rapids, MI
 Date of the Event: 06/15/2019
+
+****** Band Event Search Results ******
+The Venue: Nationwide Arena
+The Venue location is: Columbus, OH
+Date of the Event: 06/16/2019
+
 ****** Band Event Search Results ******
 The Venue: Fiserv Forum
 The Venue location is: Milwaukee, WI
 Date of the Event: 06/18/2019
+
 ****** Band Event Search Results ******
 The Venue: Bridgestone Arena
 The Venue location is: Nashville, TN
 Date of the Event: 06/20/2019
-****** Band Event Search Results ******
-The Venue: Amway Center
-The Venue location is: Orlando, FL
-Date of the Event: 06/01/2019
-****** Band Event Search Results ******
-The Venue: Resch Center
-The Venue location is: Green Bay, WI
-Date of the Event: 06/23/2019
+
 ****** Band Event Search Results ******
 The Venue: TaxSlayer Center
 The Venue location is: Moline, IL
 Date of the Event: 06/22/2019
+
+****** Band Event Search Results ******
+The Venue: Resch Center
+The Venue location is: Green Bay, WI
+Date of the Event: 06/23/2019
+
 ****** Band Event Search Results ******
 The Venue: Xcel Energy Center
 The Venue location is: St Paul, MN
 Date of the Event: 06/25/2019
-****** Band Event Search Results ******
-The Venue: Scotiabank Saddledome
-The Venue location is: Calgary, 
-Date of the Event: 06/28/2019
-****** Band Event Search Results ******
-The Venue: Rogers Place
-The Venue location is: Edmonton, 
-Date of the Event: 06/30/2019
-****** Band Event Search Results ******
-The Venue: Rogers Arena
-The Venue location is: Vancouver, 
-Date of the Event: 07/02/2019
-****** Band Event Search Results ******
-The Venue: Tacoma Dome
-The Venue location is: Tacoma, WA
-Date of the Event: 07/03/2019
-****** Band Event Search Results ******
-The Venue: Mandalay Bay Events Center
-The Venue location is: Las Vegas, NV
-Date of the Event: 07/06/2019
-****** Band Event Search Results ******
-The Venue: Harveys Outdoor Amphitheatre At Lake Tahoe
-The Venue location is: Stateline, NV
-Date of the Event: 07/07/2019
+
 ****** Band Event Search Results ******
 The Venue: Fargodome
 The Venue location is: Fargo, ND
 Date of the Event: 06/26/2019
+
+****** Band Event Search Results ******
+The Venue: Scotiabank Saddledome
+The Venue location is: Calgary, 
+Date of the Event: 06/28/2019
+
+****** Band Event Search Results ******
+The Venue: Rogers Place
+The Venue location is: Edmonton, 
+Date of the Event: 06/30/2019
+
+****** Band Event Search Results ******
+The Venue: Rogers Arena
+The Venue location is: Vancouver, 
+Date of the Event: 07/02/2019
+
+****** Band Event Search Results ******
+The Venue: Tacoma Dome
+The Venue location is: Tacoma, WA
+Date of the Event: 07/03/2019
+
+****** Band Event Search Results ******
+The Venue: Mandalay Bay Events Center
+The Venue location is: Las Vegas, NV
+Date of the Event: 07/06/2019
+
+****** Band Event Search Results ******
+The Venue: Harveys Outdoor Amphitheatre At Lake Tahoe
+The Venue location is: Stateline, NV
+Date of the Event: 07/07/2019
+
 ****** Band Event Search Results ******
 The Venue: Starlight Theatre
 The Venue location is: Kansas City, MO
 Date of the Event: 08/13/2019
-****** Band Event Search Results ******
-The Venue: Ravinia Festival
-The Venue location is: Highland Park, IL
-Date of the Event: 08/15/2019
+
 ****** Band Event Search Results ******
 The Venue: Hollywood Casino Amphitheatre - St. Louis
 The Venue location is: Maryland Heights, MO
 Date of the Event: 08/11/2019
+
+****** Band Event Search Results ******
+The Venue: Amway Center
+The Venue location is: Orlando, FL
+Date of the Event: 06/01/2019
+
 ****** Band Event Search Results ******
 The Venue: Illinois State Fairgrounds Il State Fair
 The Venue location is: Springfield, IL
 Date of the Event: 08/14/2019
-****** Band Event Search Results ******
-The Venue: Brandon Amphitheater
-The Venue location is: Brandon, MS
-Date of the Event: 08/19/2019
-****** Band Event Search Results ******
-The Venue: SpringHill Suites by Marriott Orange Beach at The Wharf
-The Venue location is: Orange Beach, AL
-Date of the Event: 08/20/2019
-****** Band Event Search Results ******
-The Venue: Tuscaloosa Amphitheater
-The Venue location is: Tuscaloosa, AL
-Date of the Event: 08/22/2019
-****** Band Event Search Results ******
-The Venue: Daily's Place Amphitheater
-The Venue location is: Jacksonville, FL
-Date of the Event: 08/24/2019
-****** Band Event Search Results ******
-The Venue: Merriweather Post Pavilion
-The Venue location is: Columbia, MD
-Date of the Event: 08/26/2019
-****** Band Event Search Results ******
-The Venue: Constellation Brands Performing Arts Center CMAC
-The Venue location is: Canandaigua, NY
-Date of the Event: 08/27/2019
-****** Band Event Search Results ******
-The Venue: Bank of New Hampshire Pavilion
-The Venue location is: Gilford, NH
-Date of the Event: 08/29/2019
-****** Band Event Search Results ******
-The Venue: Bethel Woods Center For the Arts
-The Venue location is: Bethel, NY
-Date of the Event: 08/31/2019
+
 ****** Band Event Search Results ******
 The Venue: Iowa State Fair
 The Venue location is: Des Moines, IA
 Date of the Event: 08/17/2019
+
+****** Band Event Search Results ******
+The Venue: Brandon Amphitheater
+The Venue location is: Brandon, MS
+Date of the Event: 08/19/2019
+
+****** Band Event Search Results ******
+The Venue: SpringHill Suites by Marriott Orange Beach at The Wharf
+The Venue location is: Orange Beach, AL
+Date of the Event: 08/20/2019
+
+****** Band Event Search Results ******
+The Venue: Tuscaloosa Amphitheater
+The Venue location is: Tuscaloosa, AL
+Date of the Event: 08/22/2019
+
+****** Band Event Search Results ******
+The Venue: Daily's Place Amphitheater
+The Venue location is: Jacksonville, FL
+Date of the Event: 08/24/2019
+
+****** Band Event Search Results ******
+The Venue: Merriweather Post Pavilion
+The Venue location is: Columbia, MD
+Date of the Event: 08/26/2019
+
+****** Band Event Search Results ******
+The Venue: Constellation Brands Performing Arts Center CMAC
+The Venue location is: Canandaigua, NY
+Date of the Event: 08/27/2019
+
+****** Band Event Search Results ******
+The Venue: Bank of New Hampshire Pavilion
+The Venue location is: Gilford, NH
+Date of the Event: 08/29/2019
+
+****** Band Event Search Results ******
+The Venue: Bethel Woods Center For the Arts
+The Venue location is: Bethel, NY
+Date of the Event: 08/31/2019
+
 ****** Band Event Search Results ******
 The Venue: Canfield Fairgrounds
 The Venue location is: Canfield, OH
 Date of the Event: 09/01/2019
-******Movie Information******
-Movie Title: Cinderella Man
-Year Released: 2005
-Country: USA
-Language: English
-IMDB Rating: 8.0/10
-Rotten Tomatoes Rating: 80%
-Actors: Russell Crowe, Renée Zellweger, Paul Giamatti, Craig Bierko
-Plot: The story of James Braddock, a supposedly washed-up boxer who came back to become a champion and an inspiration in the 1930s.
+
+****** Band Event Search Results ******
+The Venue: Ravinia Festival
+The Venue location is: Highland Park, IL
+Date of the Event: 08/15/2019

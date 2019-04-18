@@ -42,7 +42,7 @@ function spotify(userInput) {
     }
 
     //record data
-    var song = "\n******Song Information******" + "\nArtist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
+    var song = "\n\n******Song Information******" + "\nArtist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
       "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].preview_url;
 
     fs.appendFile("log.txt", song, function (err) {
@@ -75,7 +75,7 @@ function bandsInTown(artist){
         var date = results[i].datetime;
         var newDate = moment(date).format("MM/DD/YYYY");
 
-        var bands = "\n****** Band Event Search Results ******" +
+        var bands = "\n\n****** Band Event Search Results ******" +
           "\nThe Venue: " + results[i].venue.name +
           "\nThe Venue location is: " + results[i].venue.city + ", " + results[i].venue.region +
           "\nDate of the Event: " + newDate;
@@ -107,7 +107,7 @@ function omdb(movieName){
 
   axios.get(queryURL).then(function (response){
     var movieResults = response.data;
-    var movie = "\n******Movie Information******" +
+    var movie = "\n\n******Movie Information******" +
     "\nMovie Title: " + movieResults.Title +
     "\nYear Released: " + movieResults.Year +
     "\nCountry: " + movieResults.Country +
