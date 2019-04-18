@@ -46,5 +46,21 @@ SPOTIFY_SECRET={your id here}
 
 ![Screenshot (22)](https://user-images.githubusercontent.com/46547100/56335250-bce38b00-6169-11e9-8b93-04dbedd59392.png)
 * if the band is unavailable a message stating so is relayed
+
+![Screenshot (33)](https://user-images.githubusercontent.com/46547100/56335540-f23ca880-616a-11e9-9b86-8bca212c550b.png)
+
+# spotify-this-song
+### what it does:
+Using the node-spotify-api to call upon the Spotify API to retrieve song information for the inputed request
+### what it returns:
+* Artist
+* Song Name
+* Album 
+* URL Preview Link for the song
+### examples
+* calling spotify-this-song
+* calling spotify-this-song and a requested song
+* the response
+* if a action is made without a song request information will be recieved for "The Sign"
  
   
