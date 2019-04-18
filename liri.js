@@ -42,8 +42,19 @@ function spotify(userInput) {
     }
 
     //record data
-    console.log("\n******Song Information******" + "\nArtist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
-      "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].preview_url);
+    var song = "\n******Song Information******" + "\nArtist: " + data.tracks.items[0].artists[0].name + "\nSong name: " + data.tracks.items[0].name +
+      "\nAlbum Name: " + data.tracks.items[0].album.name + "\nPreview Link: " + data.tracks.items[0].preview_url;
+
+    fs.appendFile("log.txt", song, function (err) {
+      if (err) {
+        console.log(err);
+      }
+
+      else {
+        console.log(song);
+        console.log("Your search was saved in the log.txt file!");
+      }
+    });
   });
 
 }
@@ -61,12 +72,24 @@ function bandsInTown(artist){
     } else {
       //loops through every available event and lists the venue name, location, and date of event
       for (var i = 0; i < results.length; i++) {
-        console.log("\n****** Band Event Search Results ******" +
-          "\nThe Venue: " + results[i].venue.name +
-          "\nThe Venue location is: " + results[i].venue.city + ", " + results[i].venue.region);
         var date = results[i].datetime;
         var newDate = moment(date).format("MM/DD/YYYY");
-        console.log("Date of the Event: " + newDate);
+
+        var bands = "\n****** Band Event Search Results ******" +
+          "\nThe Venue: " + results[i].venue.name +
+          "\nThe Venue location is: " + results[i].venue.city + ", " + results[i].venue.region +
+          "\nDate of the Event: " + newDate;
+
+        fs.appendFile("log.txt", bands, function (err) {
+          if (err) {
+            console.log(err);
+          }
+
+          else {
+            console.log(bands);
+            console.log("Your search was saved in the log.txt file!");
+          }
+        });
       }
     }
   });
@@ -84,7 +107,7 @@ function omdb(movieName){
 
   axios.get(queryURL).then(function (response){
     var movieResults = response.data;
-    console.log("\n******Movie Information******" +
+    var movie = "\n******Movie Information******" +
     "\nMovie Title: " + movieResults.Title +
     "\nYear Released: " + movieResults.Year +
     "\nCountry: " + movieResults.Country +
@@ -92,7 +115,18 @@ function omdb(movieName){
     "\nIMDB Rating: " + movieResults.Ratings[0].Value +
     "\nRotten Tomatoes Rating: " + movieResults.Ratings[1].Value +
     "\nActors: " + movieResults.Actors +
-    "\nPlot: " + movieResults.Plot);
+    "\nPlot: " + movieResults.Plot;
+
+    fs.appendFile("log.txt", movie, function (err) {
+      if (err) {
+        console.log(err);
+      }
+
+      else {
+        console.log(movie);
+        console.log("Your search was saved in the log.txt file!");
+      }
+    });
   });
 }
 
