@@ -17,6 +17,7 @@ SPOTIFY_SECRET={your id here}
 1. Open the terminal for liri.js and in ther terminal run node liri.js
 
 ![Screenshot (18)](https://user-images.githubusercontent.com/46547100/56335246-bce38b00-6169-11e9-946e-a122841d55b5.png)
+
 2. Add the action you would like to take and the requested movie, song, or artist/band
 3. Requests can be single or multiple words
 
@@ -85,6 +86,8 @@ Axios is used to call on the OMDB API to retrieve information on a movie for the
 * Plot
 ### examples
 * calling movie-this
+
+![Screenshot (31)](https://user-images.githubusercontent.com/46547100/56336293-c7a01f00-616d-11e9-841a-f9076563ccff.png)
 * calling movie-this and a requested movie
 
 ![Screenshot (28)](https://user-images.githubusercontent.com/46547100/56336220-7ee86600-616d-11e9-853a-fcc009588916.png)
@@ -94,6 +97,13 @@ Axios is used to call on the OMDB API to retrieve information on a movie for the
 * if an action is made without a request the movie information for Mr. Nobody will be returned.
 
 ![Screenshot (30)](https://user-images.githubusercontent.com/46547100/56336222-7ee86600-616d-11e9-9c04-632740db54cf.png)
+
+# do-what-it-says
+### what it does:
+It reads the random.txt file for information on which action to call and the request to make
+ - The .txt file has in it: spotify-this-song,"I Want it That Way" 
+ - The .txt file can be changed to use any of the actions
+### examples
 
 
   
