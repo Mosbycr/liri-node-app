@@ -22,6 +22,8 @@ SPOTIFY_SECRET={your id here}
 3. Requests can be single or multiple words
 4. All responses will be logged in the terminal and will also be appended to log.txt for a clear to read list of the information.
 
+![Screenshot (34)](https://user-images.githubusercontent.com/46547100/56397875-1ef8ca80-6214-11e9-913b-5bf422ac4414.png)
+
 # Actions
  There are 4 actions available:
  - concert-this
