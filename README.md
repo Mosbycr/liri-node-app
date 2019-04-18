@@ -86,8 +86,14 @@ Axios is used to call on the OMDB API to retrieve information on a movie for the
 ### examples
 * calling movie-this
 * calling movie-this and a requested movie
+
+![Screenshot (28)](https://user-images.githubusercontent.com/46547100/56336220-7ee86600-616d-11e9-853a-fcc009588916.png)
 * the response
+
+![Screenshot (29)](https://user-images.githubusercontent.com/46547100/56336221-7ee86600-616d-11e9-9b45-f9a6f80ca61e.png)
 * if an action is made without a request the movie information for Mr. Nobody will be returned.
+
+![Screenshot (30)](https://user-images.githubusercontent.com/46547100/56336222-7ee86600-616d-11e9-9c04-632740db54cf.png)
 
 
   
