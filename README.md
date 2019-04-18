@@ -70,4 +70,24 @@ Using the node-spotify-api to call upon the Spotify API to retrieve song informa
 * if a action is made without a song request information will be recieved for "The Sign"
  
 ![Screenshot (27)](https://user-images.githubusercontent.com/46547100/56335855-2e243d80-616c-11e9-8c5d-7b243e78af57.png)
+
+# movie-this
+### what it does:
+Axios is used to call on the OMDB API to retrieve information on a movie for the inputed request
+### what it returns:
+* Movie Title
+* Year
+* Country
+* Language
+* IMDB Rating
+* Rotten Tomatoes Rating
+* Actors
+* Plot
+### examples
+* calling movie-this
+* calling movie-this and a requested movie
+* the response
+* if an action is made without a request the movie information for Mr. Nobody will be returned.
+
+
   
