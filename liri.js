@@ -1,4 +1,5 @@
 require("dotenv").config();
+var fs = require("fs");
 var axios = require("axios");
 var moment = require('moment');
 var Spotify = require("node-spotify-api");
@@ -7,18 +8,16 @@ var keys = require("./keys.js");
 var userRequestAction = process.argv[2];
 var userInput = process.argv.slice(3).join("+");
 var artist = process.argv.slice(3).join("");
-console.log(userInput);
-
-
 
 // Action choices and executions
 switch (userRequestAction){
-    case "spotify-this-song":
-    spotify(userInput);
-    break;
-
+    
     case "concert-this":
     bandsInTown(artist);
+    break;
+
+    case "spotify-this-song":
+    spotify(userInput);
     break;
 
     case "movie-this":
@@ -26,13 +25,12 @@ switch (userRequestAction){
     break;
 
     case "do-what-it-says":
+    doTxtFile();
     break;
 }
 
-//add default song
 function spotify(userInput) {
   var spotify = new Spotify(keys.spotify);
-  //console.log(spotify);
 
   if(!userInput){
     userInput = "the+sign+ace+of+base";
@@ -57,7 +55,7 @@ function bandsInTown(artist){
   axios.get(queryURL).then(function (response) {
     //console.log(response);
     var results = response.data;
-    //checks if response is emty - means that band has no events
+    //checks if response is empty - means that band has no events
     if (response.data.length === 0){ 
       console.log("The artist or band you would like to see has no showings available. Please try another!");
     } else {
@@ -97,4 +95,35 @@ function omdb(movieName){
     "\nActors: " + movieResults.Actors +
     "\nPlot: " + movieResults.Plot);
   });
+}
+
+function doTxtFile(){
+  fs.readFile("random.txt", "utf8", function (error, data) {
+
+    // If the code experiences any errors it will log the error to the console.
+    if (error) {
+      return console.log(error);
+    }
+
+    // We will then print the contents of data
+    //console.log(data);
+
+    // Then split it by commas (to make it more readable)
+    var dataArr = data.split(",");
+
+    // We will then re-display the content as an array for later use.
+    //console.log(dataArr);
+    //
+    if(dataArr[0] === "spotify-this-song"){
+      spotify(dataArr[1]);
+    }
+    else if (dataArr[0] === "concert-this"){
+      bandsInTown(dataArr[1]);
+    }
+    else if (dataArr[0] === "movie-this"){
+      omdb(dataArr[1]);
+    }
+
+  });
+
 }
