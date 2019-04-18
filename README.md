@@ -59,8 +59,15 @@ Using the node-spotify-api to call upon the Spotify API to retrieve song informa
 * URL Preview Link for the song
 ### examples
 * calling spotify-this-song
+
+![Screenshot (23)](https://user-images.githubusercontent.com/46547100/56335851-2e243d80-616c-11e9-8223-f179168ee598.png)
 * calling spotify-this-song and a requested song
+
+![Screenshot (24)](https://user-images.githubusercontent.com/46547100/56335852-2e243d80-616c-11e9-88a5-a34c40dc3cce.png)
 * the response
+
+![Screenshot (25)](https://user-images.githubusercontent.com/46547100/56335854-2e243d80-616c-11e9-8370-cde2a82a0f70.png)
 * if a action is made without a song request information will be recieved for "The Sign"
  
+![Screenshot (27)](https://user-images.githubusercontent.com/46547100/56335855-2e243d80-616c-11e9-8c5d-7b243e78af57.png)
   
