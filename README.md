@@ -15,8 +15,8 @@ SPOTIFY_SECRET={your id here}
 
 # Getting Started
 1. Open the terminal for liri.js and in ther terminal run node liri.js
-![Screenshot (18)](https://user-images.githubusercontent.com/46547100/56335246-bce38b00-6169-11e9-946e-a122841d55b5.png)
 
+![Screenshot (18)](https://user-images.githubusercontent.com/46547100/56335246-bce38b00-6169-11e9-946e-a122841d55b5.png)
 2. Add the action you would like to take and the requested movie, song, or artist/band
 3. Requests can be single or multiple words
 
