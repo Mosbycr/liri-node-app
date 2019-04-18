@@ -20,6 +20,7 @@ SPOTIFY_SECRET={your id here}
 
 2. Add the action you would like to take and the requested movie, song, or artist/band
 3. Requests can be single or multiple words
+4. All responses will be logged in the terminal and will also be appended to log.txt for a clear to read list of the information.
 
 # Actions
  There are 4 actions available:
